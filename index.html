@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Piggy Bank</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/lib/materialize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/lib/materialize.js"></script>
+        <script src="js/lib/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <div class="main-container right">
+            <div class="app-title left main-color">Piggy Bank</div>
+            <div class="app-tools right">
+                <a class="btn-floating btn-small waves-effect waves-light red add-expense"><i class="material-icons">add</i></a>
+            </div>
+            <div class="add-expense-form left hide blue-grey lighten-5">
+                <div class="section-title right main-color">Add Expense</div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="expense-name" type="text" class="validate">
+                        <label class="active" for="expense-name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="expense-remark" type="text" class="validate">
+                        <label class="active" for="expense-remark">Remarks</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="expense-total" type="text" class="validate">
+                        <label class="active" for="expense-total">Total Amount</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <a class="waves-effect waves-teal btn-flat right accent-color add-expense-btn">Add</a>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- main.js after content -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
